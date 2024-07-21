@@ -223,10 +223,10 @@ function cekKhodam() {
     "Paus Paha Besar",
     "Bekantan Bujur Tepos",
     "Piranha Pinggang Karung",
-    "Kadal Dada Ceper",
+    "Kadal Dada Tepos",
     "Kiwi Lengan Kekar",
     "Elang Alis Tebal",
-    "Belut Mata Belo",
+    "Belut Darat",
     "Tapir Hidung Pesek",
     "Cheetah Pipi Tirus",
     "Biawak Benjol",
@@ -242,7 +242,7 @@ function cekKhodam() {
     "Kalkun Mata Juling",
     "Burung Beo Suara Cempreng",
     "Codot Bau Kaki",
-    "Cicak Ketiak Basah",
+    "Cicak Ketek Basah",
     "Luwak Mulut Monyong",
     "Kuda Laut Jari Lentik",
     "Tokek Kuku Panjang",
@@ -256,9 +256,9 @@ function cekKhodam() {
   let comp = khodam[Math.floor(Math.random() * khodam.length)];
   // let main = true;
   let name = prompt("Silakan masukan nama untuk di cek khodam!!");
-  if(name === null || name.trim() === ''){
-    alert(name + ' tidak diizinkan')
-    return
+  if (name === null || name.trim() === "") {
+    alert(name + " tidak diizinkan");
+    return;
   }
   alert(name + " khodamnya adalah " + comp);
   // main = confirm("Cek Lagi??");
