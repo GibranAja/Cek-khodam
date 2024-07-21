@@ -1,27 +1,45 @@
-html {
-    height: 100%;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    background-color: crimson;
-    height: 100%;
-}
-
-.taik {
-    height: 100%;
+    background-color: #e74c3c;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
-.wow {
-    font-size: 1rem;
-    color: #333;
-    background-color: #fff;
-    padding: 10px;
-    margin-bottom: 2rem;
+.container {
     text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.check-button {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    background-color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.check-button:hover {
+    background-color: #f8f8f8;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
