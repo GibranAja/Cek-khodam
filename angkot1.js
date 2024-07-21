@@ -157,7 +157,6 @@
 // alert('TerimaKasih')
 
 function cekKhodam() {
-
   let khodam = [
     "Jerapah Botak",
     "Gajah Kurus",
@@ -252,7 +251,7 @@ function cekKhodam() {
     "Burung Unta Berkacamata",
     "Ikan Paus Bertopi",
     "Nyamuk Berjenggot",
-    "Banteng PDI"
+    "Banteng PDI",
   ];
   let comp = khodam[Math.floor(Math.random() * khodam.length)];
   // let main = true;
