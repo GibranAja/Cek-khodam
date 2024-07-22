@@ -252,6 +252,10 @@ function cekKhodam() {
     "Ikan Paus Bertopi",
     "Nyamuk Berjenggot",
     "Banteng PDI",
+    "Orang Bogor",
+    "Patrick Emas",
+    "Aufa Kehed",
+    "Jerapah Cebol"
   ];
   let comp = khodam[Math.floor(Math.random() * khodam.length)];
   // let main = true;
