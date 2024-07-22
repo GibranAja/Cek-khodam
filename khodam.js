@@ -255,7 +255,7 @@ function cekKhodam() {
     "Orang Bogor",
     "Patrick Emas",
     "Aufa Kehed",
-    "Jerapah Cebol"
+    "Jerapah Cebol",
   ];
   let comp = khodam[Math.floor(Math.random() * khodam.length)];
   let name = prompt("Silakan masukan nama untuk di cek khodam!!");
