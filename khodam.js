@@ -264,5 +264,4 @@ function cekKhodam() {
     return;
   }
   alert(name + " khodamnya adalah " + comp);
-  alert(" Jangan lupa cek khodam!");
 }
