@@ -1,69 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: Arial, sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    background-color: #e74c3c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #e74c3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    text-align: center;
-    width: 90%;
-    max-width: 600px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
 }
 
 .title {
-    font-size: 3rem;
-    color: #fff;
-    margin-bottom: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .check-button {
-    font-size: 1.2rem;
-    color: #e74c3c;
-    background-color: #fff;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  background-color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .check-button:hover {
-    background-color: #f8f8f8;
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
-    .title {
-        font-size: 4rem;
-    }
+  .title {
+    font-size: 4rem;
+  }
 
-    .check-button {
-        font-size: 15%;
-        padding: 32px 64px;
-    }
+  .check-button {
+    font-size: 15%;
+    padding: 32px 64px;
+  }
 }
 
 @media (max-width: 480px) {
-    .title {
-        font-size: 3.5rem;
-    }
+  .title {
+    font-size: 3.5rem;
+  }
 
-    .check-button {
-        font-size: 1.3rem;
-        padding: 14px 28px;
-    }
+  .check-button {
+    font-size: 1.3rem;
+    padding: 14px 28px;
+  }
 }
