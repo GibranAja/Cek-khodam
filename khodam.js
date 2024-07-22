@@ -258,13 +258,11 @@ function cekKhodam() {
     "Jerapah Cebol"
   ];
   let comp = khodam[Math.floor(Math.random() * khodam.length)];
-  // let main = true;
   let name = prompt("Silakan masukan nama untuk di cek khodam!!");
   if (name === null || name.trim() === "") {
     alert(name + " tidak diizinkan");
     return;
   }
   alert(name + " khodamnya adalah " + comp);
-  // main = confirm("Cek Lagi??");
   alert(" Jangan lupa cek khodam!");
 }
