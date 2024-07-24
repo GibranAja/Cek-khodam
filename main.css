@@ -49,22 +49,22 @@ body {
 
 @media (max-width: 768px) {
   .title {
-    font-size: 4rem;
+    font-size: 7rem;
   }
 
   .check-button {
-    font-size: 15%;
+    font-size: 18%;
     padding: 32px 64px;
   }
 }
 
 @media (max-width: 480px) {
   .title {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 
   .check-button {
-    font-size: 1.3rem;
+    font-size: 3.3rem;
     padding: 14px 28px;
   }
 }
